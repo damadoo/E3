@@ -1,3 +1,8 @@
+// AMADODaniela_E03
+// Ejercicio 3 - Movimiento, arrays, colorMode() y map()
+// Descripcion: Este sketch muestra flores que se mueven y rebotan en el espacio
+// Cada flor es una figura compuesta por circulos que representa vida y energía en expansion
+
 int arraySize = 30;
 
 float[] xPositions;
