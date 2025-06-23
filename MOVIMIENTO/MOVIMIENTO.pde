@@ -40,7 +40,7 @@ void draw() {
     xPositions[i] = xPositions[i] + xSpeeds[i] * xDirections[i];
     yPositions[i] = yPositions[i] + ySpeeds[i] * yDirections[i];
 
-    // rebote en los bordes
+    // rebote
     if (xPositions[i] > width || xPositions[i] < 0) {
       xDirections[i] = xDirections[i] * -1;
     }
